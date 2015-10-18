@@ -1,0 +1,21 @@
+{
+  "name": "try2",
+  "version": "0.0.1",
+  "description": "A JAWS application",
+  "author": "me",
+  "license": "",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/"
+  },
+  "keywords": [],
+  "devDependencies": {},
+  "dependencies": {
+    "jaws-core-js": "~0.0.2",
+    "mocha": "~2.3.3"
+  },
+  "scripts": {
+    "test": "mocha aws_modules/*/*/tests"
+  }
+}
