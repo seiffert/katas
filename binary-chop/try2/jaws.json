@@ -11,7 +11,8 @@
         "region": "eu-west-1",
         "iamRoleArnLambda": "arn:aws:iam::363958861857:role/dev-try2-r-IamRoleLambda-R2Y34BMOX0SK",
         "iamRoleArnApiGateway": "arn:aws:iam::363958861857:role/dev-try2-r-IamRoleApiGateway-MJIVB9QBWUYT",
-        "jawsBucket": "jaws.dev.euwest1.binary-chop.katas.paul-seiffert.de"
+        "jawsBucket": "jaws.dev.euwest1.binary-chop.katas.paul-seiffert.de",
+        "restApiId": "qydcpl0b42"
       }
     ]
   }

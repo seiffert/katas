@@ -1,7 +1,7 @@
 {
   "lambda": {
     "envVars": [],
-    "deploy": false,
+    "deploy": true,
     "package": {
       "optimize": {
         "builder": "browserify",
@@ -27,10 +27,12 @@
     "cloudFormation": {
       "Type": "AWS",
       "Path": "chop/calculate",
-      "Method": "GET",
+      "Method": "POST",
       "AuthorizationType": "none",
       "ApiKeyRequired": false,
-      "RequestTemplates": {},
+      "RequestTemplates": {
+        "application/json": "$input.json('$')"
+      },
       "RequestParameters": {},
       "Responses": {
         "400": {
